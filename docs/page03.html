@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Flipkart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f2f5;
+    }
+    .container {
+	display: flex;	
+	justify-content: space-between;
+      width: 600px;
+      margin: 100px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+ .left-section {
+      flex: 3; 
+    }
+    .right-section {
+      flex: 3; 
+      padding: 0 10px; 
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    .input-group {
+      margin-bottom: 20px;
+    }
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+      color: #666;
+    }
+    .input-group input[type="text"],
+    .input-group input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .input-group input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #ff9f00;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .input-group input[type="submit"]:hover {
+      background-color: #e69000;
+    }
+    .bottom-text {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+    }
+    .bottom-text a {
+      color: #ff9f00;
+      text-decoration: none;
+    }
+.login-image {
+      width: 100%; /* Make sure the image takes the full width */
+      height: auto; /* Allow the height to adjust proportionally */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+<div class="left-section">
+     
+      <img src="login.png" alt="Login Image" class="login-image">
+    </div>
+<div class="right-section">
+    <h2>Create an account</h2>
+    <form action="#" method="POST">
+      <div class="input-group">
+        <label for="username">Enter Mobile number</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+<p>By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+      <div class="input-group">
+        <a href="lovely2.html"><input type="submit" value="CONTINUE"></a>
+      </div>
+    </form>
+    <p class="bottom-text"><a href="">Existing user?Log in</a></p>
+  </div>
+</body>
+</html>
